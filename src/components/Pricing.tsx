@@ -333,7 +333,7 @@ function Pricing() {
 
                 <div className="flex gap-3">
                   <a
-                    href="/downloads/Vanta_Launcher.exe"
+                    href={`${import.meta.env.BASE_URL}downloads/Vanta_Launcher.exe`}
                     download="Vanta_Launcher.exe"
                     className="flex-1 bg-brand-primary text-brand-bg text-center py-3 rounded-[.7rem] font-display font-bold text-xs tracking-wider uppercase hover:brightness-110 transition-all cursor-pointer flex items-center justify-center gap-2"
                   >
